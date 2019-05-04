@@ -2,7 +2,7 @@
 """
 Created on Fri May  3 12:56:26 2019
 @author: Suksmono
-Problem: boolean reduction
+Problem: prime factorization
 """
 '''
 # setup symqui
