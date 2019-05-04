@@ -18,7 +18,7 @@
 howto use:
 ----------
 # import the library
-    >>import symque as sq
+    >>import symqui as sq
 # define a qubo extractor object, eg.               
     >> qb=sq.symqx()
 # enter the problem in string, eg. 
