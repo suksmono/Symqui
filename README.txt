@@ -13,4 +13,23 @@
 #
 # {string_equation}->|QSymbolic|->{qubo_coeffs}->|qubo_solver|->{Results}
 #
-# legend: {... data ...}, | ... process ...|                                                                                                                                                                  
+# legend: {... data ...}, | ... process ...|   
+----------
+howto use:
+----------
+# import the library
+    >>import symque as sq
+# define a qubo extractor object, eg.               
+    >> qb=sq.symqx()
+# enter the problem in string, eg. 
+    >> qb.eq_str = '2*(1+q0*q1*q2*q3)'  
+# extract qubo coefficients
+    >> J=qb.get_qubo_coeffs()
+# define solver
+    >>import wildqat as wq
+    >>a = wq.opt()
+# enter qubo coeffs into solver
+    >>a.qubo=J
+# solve the problem
+    >>a.solve()
+                                                                                                                                                               
