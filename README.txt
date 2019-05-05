@@ -14,9 +14,17 @@
 # {string_equation}->|QSymbolic|->{qubo_coeffs}->|qubo_solver|->{Results}
 #
 # legend: {... data ...}, | ... process ...|   
-----------
-howto use:
-----------
+
+
+#---------------
+# how to install
+#---------------
+
+>pip install symqui
+
+#---------------
+# how to use:
+#---------------
 # import the library
     >>import symqui as sq
 # define a qubo extractor object, eg.               
