@@ -1,7 +1,7 @@
 from setuptools import setup
 setup(
     name='Symqui',
-    url='https://github.com/suksmono/Symque',
+    url='https://github.com/suksmono/Symqui',
     author='Andriyan Suksmono',
     author_email='suksmono@yahoo.com',
     #install_requires=['sympy'],
