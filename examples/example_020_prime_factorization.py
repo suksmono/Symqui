@@ -23,4 +23,4 @@ a = wq.opt()
 #enter qubo coeffs into solver
 a.qubo= qb.get_qubo_coeffs() 
 #solve the problem
-print(a.sa())
+print('\nSolution',a.sa())
