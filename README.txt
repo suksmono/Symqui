@@ -20,7 +20,7 @@
 # how to install
 #---------------
 
->pip install symqui
+    >>pip install symqui
 
 #---------------
 # how to use:
@@ -28,11 +28,11 @@
 # import the library
     >>import symqui as sq
 # define a qubo extractor object, eg.               
-    >> qb=sq.symqx()
+    >>qb=sq.symqx()
 # enter the problem in string, eg. 
-    >> qb.eq_str = '2*(1+q0*q1*q2*q3)'  
+    >>qb.eq_str = '2*(1+q0*q1*q2*q3)'  
 # extract qubo coefficients
-    >> J=qb.get_qubo_coeffs()
+    >>J=qb.get_qubo_coeffs()
 # define solver
     >>import wildqat as wq
     >>a = wq.opt()
